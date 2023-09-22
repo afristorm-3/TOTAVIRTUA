@@ -1,5 +1,5 @@
 
-const apiKey = 'AIzaSyBNbVLVnWeIXBZfDpfZ-auzO6o0RVJoG80';
+const apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 function fetchUserLocation() {
             // Use the Google Geolocation API to fetch user's location based on IP address
