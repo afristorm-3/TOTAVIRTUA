@@ -1,6 +1,6 @@
 # Tota Healthcare AI
 
-![Cover image](image/virtua.png "Cover image")
+![Cover image](image/tota.png "Cover image")
 
 ## Introduction
 Tota  is a chat application that uses AI to provide virtual health assistance. It allows users to interact with a chatbot to ask health-related questions or seek medical advice. The application utilizes speech-to-text conversion and natural language processing to understand user queries and provide appropriate responses.
