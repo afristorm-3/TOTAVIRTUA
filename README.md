@@ -5,7 +5,7 @@
 ## Introduction
 Tota  is a chat application that uses AI to provide virtual health assistance. It allows users to interact with a chatbot to ask health-related questions or seek medical advice. The application utilizes speech-to-text conversion and natural language processing to understand user queries and provide appropriate responses.
 
-- Deployed Site: [Tota Virtua Health Assistant](https://tota.afristorm3.tech)
+- Deployed Site: [Tota](https://tota.afristorm3.tech)
 
 
 
@@ -35,5 +35,5 @@ We welcome contributions to the Tota Virtua Health Assistant project. To contrib
 - LinkedIn: [Temitayo Alabeni on LinkedIn](https://www.linkedin.com/in/alabenitemitayo/)
 
 ## Licensing
-The Tota Virtua Health Assistant project is licensed under the [MIT License](LICENSE).
+The Tota Healthcare AI project is licensed under the [MIT License](LICENSE).
 
