@@ -1,0 +1,22 @@
+# Serverless configuration for Tota Healthcare AI
+
+service: tota
+
+provider:
+    name: aws
+    runtime: python3.10
+    stage: dev
+    region: sa-east-1
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  tota:
+    handler: handler.handler
+    timeout: 30
+    events:
+      - http:
+          path: get-answer          
+          method: post
+          cors: true
