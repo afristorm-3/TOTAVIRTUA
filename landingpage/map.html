@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="css/symptoms.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNbVLVnWeIXBZfDpfZ-auzO6o0RVJoG80&libraries=places&callback=initMap" async defer></script>
+
+   
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNbVLVnWeIXBZfDpfZ-auzO6o0RVJoG80&libraries=places,geometry&callback=initMap" async defer></script>
+
+
+<!-- Google Places API -->
+
+<title>Tota | Healthcare AI</title>
+    </head>
+    <body>
+    <div class="divider"></div>
+    <header>
+      <div class="left-side">
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <img src="img/tota2.png" alt="Image by julos on Freepik" />
+        </a>
+      </div>
+      
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="index.html">Home</a></div>
+        <div class="nav-link-wrapper"><a href="about.html">About</a></div>
+        <div class="nav-link-wrapper"><a href="privacy.html">Privacy</a></div>
+        <div class="nav-link-wrapper">
+          <a href="developers.html">Developers</a>
+        </div>
+      </div>
+      
+    </header>
+    <div class="divider"></div><br>
+    <main>
+      <section class="input-container">
+        <input id="pac-input" class="alaga" type="text" placeholder="Enter a location">
+
+        
+
+        
+      </section>
+      <section class="chat-container">
+        
+        <div id="map" style="height: 400px;"></div>
+          <script src="map.js"></script>
+       
+      </section>
+      
+    </main>
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; 2023 Tota Health Ai</p>
+    </footer>
+    
+  </body>
+</html>

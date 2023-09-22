@@ -1,0 +1,204 @@
+body {
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .left-side a img {
+  width: 50%;
+  margin-left: 80px;
+}
+
+header .right-side {
+  display: flex;
+  margin-right: 80px;
+}
+
+
+header .right-side .nav-link-wrapper a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #302a29;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Viga", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Viga", serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+  padding: 0.5em 0;
+}
+
+.card {
+  box-shadow: 0 0 2.3em #302a29;
+  padding: 3.5em 1em;
+  border-radius: 0.9em;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #f1f1f1;
+}
+
+.card .img-container {
+  width: 8em;
+  height: 8em;
+  background-color: #dbb88d;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-weight: 500;
+}
+
+.card p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+
+.icons {
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+
+.card:hover {
+  background: #113e21;
+  color: #ffffff;
+}
+
+.card:hover .img-container {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 404px) {
+  header .left-side a img {
+    width: 50px;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    font-size: 16px;
+  }
+
+  .card {
+    padding: 2em 1em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header .left-side a img {
+    width: 60px;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 3em 1em;
+  }
+}
+
+@media (min-width: 1140px) {
+  header .left-side a img {
+    width: 70px;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    font-size: 20px;
+  }
+
+  .card {
+    padding: 5em 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+
+  .card {
+    padding: 5em 1em;
+  }
+
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+}
+/* CSS for the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the copyright statement */
+  text-align: center; /* Center-align the content within the footer */
+  padding: 1px; /* Add padding to the footer for spacing */
+}
+
+/* Style for the copyright text */
+.copyright {
+  font-size: 12px; /* Font size for the copyright text */
+  margin: 0; /* Remove any default margin */
+}
+
+.divider {
+            height: 40px; /* Adjust the height as needed */
+           /* Set the background color of the divider */
+        }
+

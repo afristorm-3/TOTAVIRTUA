@@ -1,0 +1,392 @@
+body {
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .left-side a img {
+  width: 80px;
+  
+}
+
+header .right-side {
+  display: flex;
+}
+
+header .right-side .nav-link-wrapper a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #302a29;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Viga", serif;
+}
+
+.green {
+  color: #73BF52;
+}
+
+.brown {
+  color: #73BF52;
+}
+
+.container {
+  max-width: 50%;
+  height: 10vh;
+  margin-top: 10px;
+}
+
+.container .left-side {
+  text-align: center;
+  margin-top: -40px;
+  padding: -40px;
+  max-width: 100%;
+}
+
+.container .left-side h1 {
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Viga", serif;
+  margin-top: -20px;
+  padding: -20px;
+}
+
+.container .left-side h1 .green {
+  color: #73BF52;
+  font-family: "Viga", serif;
+}
+
+.container .left-side p {
+  letter-spacing: 0.5px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Viga", serif;
+  letter-spacing: 0.5px;
+}
+
+.container .left-side a {
+  display: inline-block;
+  background: #078007;
+  padding: 12px 18px 12px 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  color: #fefefe;
+  font-size: 16.2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: "Viga", serif;
+}
+
+.container .left-side a:hover {
+  background-color: #911507;
+  transform: scale(1.05);
+}
+
+.container .right-side {
+  text-align: center;
+  margin-top: -40px;
+  padding: -40px;
+}
+
+.container .right-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container .right-side slide {
+  display: none;
+}
+.container .right-side .box {
+  position: absolute;
+  display: grid;
+  right: 0%;
+  bottom: 0%;
+}
+
+.container .right-side .box img {
+  width: 100%;
+}
+
+@media (min-width: 1140px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  header .left-side a img {
+    width: 80px;
+  }
+
+  header .right-side {
+    display: flex;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #302a29;
+  }
+
+  .container {
+    max-width: 90%;
+    margin: 80px auto;
+    display: flex;
+  }
+
+  .container .left-side {
+    text-align: left;
+    flex: 1;
+  }
+
+  .container .left-side h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+  }
+
+  .container .left-side h1 .green {
+    color: #078007;
+    font-family: "Viga", serif;
+  }
+
+  .container .left-side p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: "Viga", serif;
+  }
+
+  .container .left-side a {
+    display: inline-block;
+    background: #078007;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fefefe;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .container .right-side {
+    flex: 1;
+    text-align: center;
+  }
+
+  .container .right-side img {
+    width: 330px;
+    margin-left: 150px;
+    margin-top: -30px;
+  }
+
+  .container .right-side .box {
+    display: grid;
+    position: absolute;
+    bottom: 40%;
+    right: 1%;
+  }
+
+  .container .right-side .box img {
+    width: 25px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    display: block;
+  }
+
+  header .left-side a img {
+    width: 80px;
+    margin: auto;
+    display: block;
+  }
+
+  header .right-side {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #302a29;
+  }
+  .container {
+    max-width: 80%;
+    margin: 50px auto;
+  }
+
+  .container .left-side {
+    text-align: center;
+  }
+
+  .container .left-side h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .container .left-side h1 .green {
+    color: #078007;
+    font-family: "Viga", serif;
+  }
+
+  .container .left-side p {
+    font-size: 18px;
+    font-family: "Viga", serif;
+    letter-spacing: 0.5px;
+  }
+
+  .container .left-side a {
+    display: inline-block;
+    background: #078007;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fefefe;
+    margin-top: 15px;
+    font-size: 16.2px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 404px) {
+  header {
+    display: block;
+  }
+
+  header .left-side a img {
+    width: 60px;
+    margin: auto;
+    display: block;
+  }
+
+  header .right-side {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  header .right-side .nav-link-wrapper a {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #302a29;
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 90%;
+    margin: 30px auto;
+  }
+
+  .container .left-side {
+    text-align: center;
+  }
+
+  .container .left-side h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  .container .left-side h1 .green {
+    color: #078007;
+    font-family: "Viga", serif;
+  }
+
+  .container .left-side p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Viga", serif;
+  }
+
+  .container .left-side a {
+    display: inline-block;
+    background: #078007;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fefefe;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+/* CSS for the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the copyright statement */
+  text-align: center; /* Center-align the content within the footer */
+  padding: 1px; /* Add padding to the footer for spacing */
+}
+
+/* Style for the copyright text */
+.copyright {
+  font-size: 12px; /* Font size for the copyright text */
+  margin: 0; /* Remove any default margin */
+}
+
+  .divider {
+            height: 40px; /* Adjust the height as needed */
+           /* Set the background color of the divider */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

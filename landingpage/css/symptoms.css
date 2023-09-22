@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .left-side a img {
+  width: 50%;
+  margin-left: 80px;
+}
+
+header .right-side {
+  display: flex;
+  margin-right: 80px;
+}
+
+header .right-side .nav-link-wrapper a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #302a29;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Viga", serif;
+}
+
+main {
+  width: 70%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container {
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+h1 {
+  color: #333;
+}
+
+.chat-container {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.chat-bubble.to-tota {
+  background-color: #f0f0f0;
+  color: #333;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+textarea {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: #078007;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #911507;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  padding: 20px;
+  color: #777676;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    padding: 10px;
+  }
+
+  .chat-bubble {
+    max-width: 100%;
+  }
+}
+
+#map {
+  height: 100%;
+}
+
+.alaga {
+            flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+        }
+
+
+/* Style for the copyright text */
+.copyright {
+  font-size: 12px; /* Font size for the copyright text */
+  margin: 0; /* Remove any default margin */
+}
+
+
+.divider {
+            height: 40px; /* Adjust the height as needed */
+           /* Set the background color of the divider */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

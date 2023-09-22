@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tota | Healthcare AI</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+  <div class="divider"></div>
+    <header>
+      <div class="left-side">
+        <a
+          href="https://www.freepik.com/free-photo/fun-3d-cartoon-illustration-indian-doctor_27575354.htm#query=3d%20medical&position=15&from_view=keyword&track=ais"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          
+        </a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="home.html">Home</a></div>
+        <div class="nav-link-wrapper"><a href="about.html">About</a></div>
+        <div class="nav-link-wrapper"><a href="privacy.html">Privacy</a></div>
+        <div class="nav-link-wrapper">
+          <a href="developers.html">Developers</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="left-side">
+        <h1>
+          Hi <span class="green"> I'm TO<span class="green">TA</span> </span>
+          <br />
+          Your virtual health assistant <br />
+        </h1>
+        <p>
+          TOTA is a free,
+          fun and easy to use trusted virtual health assistant, powered by
+          cutting-edge AI. We are here to provide instant medical advice and
+          answer your health questions. Our mission is to make healthcare
+          accessible and convenient for everyone.
+        </p>
+        <a href="https://tota.afristorm3.tech/">Check symptoms</a>
+      </div>
+      
+      <div class="right-side"><br>
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="img/iphone-left.png" alt="Image by julos on Freepik" />
+          
+        </a>
+      </div>
+      
+    </div>
+   
+    <footer class="footer">
+    <p class="copyright">Copyright &copy; 2023 Tota Health Ai</p>
+  </footer>
+    
+  </body>
+  <script>
+  // script.js
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlides() {
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds (2000 milliseconds)
+}
+
+showSlides(); // Start the slideshow
+
+  
+  
+  </script>
+</html>

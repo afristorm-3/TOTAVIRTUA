@@ -1,0 +1,140 @@
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header .left-side a img {
+  width: 50%;
+  margin-left: 80px;
+}
+
+header .right-side {
+  display: flex;
+  margin-right: 80px;
+}
+
+
+header .right-side .nav-link-wrapper a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: #302a29;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Viga", serif;
+}
+
+body {
+  font-family: "Viga", serif;
+   background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.green {
+  color: #078007;
+}
+
+.brown {
+  color: brown;
+}
+
+h1 {
+  text-align: center; /* Center the h1 tag */
+}
+
+.avatar {
+  float: right; /* Align div1 (avatar) to the left */
+  margin-top: 70px;
+  max-width: 50%;
+  margin-left: 120px;
+}
+
+.text {
+  float: right; /* Align div2 (text) to the right */
+  max-width: 50%;
+}
+
+.text h1 {
+  text-align: left; /* Align the h1 tag inside div2 to the left */
+}
+
+.text p {
+  text-align: left; /* Align paragraphs inside div2 to the left */
+}
+
+@media only screen and (max-width: 404px) {
+  .avatar,
+  .text {
+    float: none; /* Remove float for both divs to stack vertically */
+    max-width: 100%;
+  }
+
+  .text h1,
+  .text p {
+    text-align: center; /* Center text inside div2 on small screens */
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .avatar,
+  .text {
+    float: none; /* Remove float for both divs to stack vertically */
+    max-width: 100%;
+  }
+
+  .text h1,
+  .text p {
+    text-align: center; /* Center text inside div2 on small screens */
+  }
+}
+
+@media (min-width: 1140px) {
+  h1 {
+    text-align: center; /* Center the h1 tag */
+  }
+
+  .avatar {
+    float: left; /* Align div1 (avatar) to the left */
+    max-width: 50%; /* Reduce width on larger screens */
+  }
+
+  .text {
+    float: right; /* Align div2 (text) to the right */
+    max-width: 70%; /* Reduce width on larger screens */
+  }
+
+  .text h1 {
+    text-align: left; /* Align the h1 tag inside div2 to the left */
+  }
+
+  .text p {
+    text-align: left; /* Align paragraphs inside div2 to the left */
+  }
+}
+/* CSS for the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the copyright statement */
+  text-align: center; /* Center-align the content within the footer */
+  padding: 1px; /* Add padding to the footer for spacing */
+}
+
+/* Style for the copyright text */
+.copyright {
+  font-size: 12px; /* Font size for the copyright text */
+  margin: 0; /* Remove any default margin */
+}
+
+.divider {
+            height: 40px; /* Adjust the height as needed */
+           /* Set the background color of the divider */
+        }
