@@ -20,7 +20,7 @@ Tota  is a chat application that uses AI to provide virtual health assistance. I
 3. Interact with the Tota  Health Assistant chatbot to ask health-related questions or seek medical advice.
 
 ## Contributing
-We welcome contributions to the Tota Virtua Health Assistant project. To contribute, please follow these steps:
+We welcome contributions to the Tota Healthcare AI project. To contribute, please follow these steps:
 
 1. Fork the repository
 2. Create a new branch: `git checkout -b feature/your-feature-name`
