@@ -1,34 +1,35 @@
-body {
-  overflow-x: hidden;
-  background-color: #f0f0f0;
-}
-
+/* Header styles */
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 100%;
-}
-
-header .left-side a img {
-  width: 50%;
-  margin-left: 80px;
-}
-
-header .right-side {
-  display: flex;
-  margin-right: 80px;
-}
-
-
-header .right-side .nav-link-wrapper a {
+  align-items: center;
   padding: 10px;
-  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-side img {
+  max-width: 50px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-wrapper {
+  margin-right: 20px;
+}
+
+.nav-link-wrapper a {
   text-decoration: none;
-  color: #302a29;
+  color: #333;
   font-weight: bold;
-  font-size: 20px;
-  font-family: "Viga", serif;
+  transition: color 0.3s ease;
+}
+
+.nav-link-wrapper a:hover {
+  color: #00cc00;
 }
 
 * {
@@ -39,7 +40,7 @@ header .right-side .nav-link-wrapper a {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .row {
@@ -116,6 +117,24 @@ body {
   transform: scale(1.5);
 }
 
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Span colors */
+.green {
+  color: #00cc00;
+}
+
+.brown {
+  color: #a52a2a;
+}
+
 @media only screen and (max-width: 404px) {
   header .left-side a img {
     width: 50px;
@@ -179,26 +198,3 @@ body {
     padding: 0 1em;
   }
 }
-/* CSS for the footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333; /* Background color for the footer */
-  color: #fff; /* Text color for the copyright statement */
-  text-align: center; /* Center-align the content within the footer */
-  padding: 1px; /* Add padding to the footer for spacing */
-}
-
-/* Style for the copyright text */
-.copyright {
-  font-size: 12px; /* Font size for the copyright text */
-  margin: 0; /* Remove any default margin */
-}
-
-.divider {
-            height: 40px; /* Adjust the height as needed */
-           /* Set the background color of the divider */
-        }
-
