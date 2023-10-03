@@ -1,126 +1,140 @@
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Body styles */
-body {
-  font-family: "Viga", sans-serif;
-  background-color: #f7f7f7; /* Update the background color */
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
 
-/* Header styles */
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
-.left-side img {
-  max-width: 50px;
+header .left-side a img {
+  width: 50%;
+  margin-left: 80px;
 }
 
-.right-side {
+header .right-side {
   display: flex;
-  align-items: center;
+  margin-right: 80px;
 }
 
-.nav-link-wrapper {
-  margin-right: 20px;
-}
 
-.nav-link-wrapper a {
+header .right-side .nav-link-wrapper a {
+  padding: 10px;
+  margin: 10px;
   text-decoration: none;
-  color: #333;
+  color: #302a29;
   font-weight: bold;
-  transition: color 0.3s ease;
+  font-size: 20px;
+  font-family: "Viga", serif;
 }
 
-.nav-link-wrapper a:hover {
-  color: #00cc00;
-}
-
-/* Intro styles */
-#containerIntro {
-  padding: 50px;
-  text-align: center;
-}
-
-.start {
-  font-size: 40px;
+body {
+  font-family: "Viga", serif;
+   background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
 .green {
-  color: #00cc00;
+  color: #078007;
 }
 
 .brown {
-  color: #a52a2a;
+  color: brown;
 }
 
-/* Content styles */
-.content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+h1 {
+  text-align: center; /* Center the h1 tag */
 }
 
 .avatar {
-  margin-right: 20px;
-}
-
-.avatar img {
-  max-width: 100%;
+  float: right; /* Align div1 (avatar) to the left */
+  margin-top: 70px;
+  max-width: 50%;
+  margin-left: 120px;
 }
 
 .text {
-  text-align: left;
+  float: right; /* Align div2 (text) to the right */
+  max-width: 50%;
 }
 
-.text h2 {
-  font-size: 24px;
-  margin-top: 20px;
+.text h1 {
+  text-align: left; /* Align the h1 tag inside div2 to the left */
 }
 
 .text p {
-  font-size: 18px;
-  margin-bottom: 20px;
+  text-align: left; /* Align paragraphs inside div2 to the left */
 }
 
-.text a {
-  color: #00cc00;
-  text-decoration: none;
-  font-weight: bold;
+@media only screen and (max-width: 404px) {
+  .avatar,
+  .text {
+    float: none; /* Remove float for both divs to stack vertically */
+    max-width: 100%;
+  }
+
+  .text h1,
+  .text p {
+    text-align: center; /* Center text inside div2 on small screens */
+  }
 }
 
-.text a:hover {
-  text-decoration: underline;
+@media only screen and (max-width: 650px) {
+  .avatar,
+  .text {
+    float: none; /* Remove float for both divs to stack vertically */
+    max-width: 100%;
+  }
+
+  .text h1,
+  .text p {
+    text-align: center; /* Center text inside div2 on small screens */
+  }
 }
 
-/* Footer styles */
-footer {
-  background-color: #f2f2f2;
-  color: #333;
-  text-align: center;
-  padding: 20px;
-  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+@media (min-width: 1140px) {
+  h1 {
+    text-align: center; /* Center the h1 tag */
+  }
+
+  .avatar {
+    float: left; /* Align div1 (avatar) to the left */
+    max-width: 50%; /* Reduce width on larger screens */
+  }
+
+  .text {
+    float: right; /* Align div2 (text) to the right */
+    max-width: 70%; /* Reduce width on larger screens */
+  }
+
+  .text h1 {
+    text-align: left; /* Align the h1 tag inside div2 to the left */
+  }
+
+  .text p {
+    text-align: left; /* Align paragraphs inside div2 to the left */
+  }
+}
+/* CSS for the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the copyright statement */
+  text-align: center; /* Center-align the content within the footer */
+  padding: 1px; /* Add padding to the footer for spacing */
 }
 
-/* Span colors */
-.green {
-  color: #00cc00;
+/* Style for the copyright text */
+.copyright {
+  font-size: 12px; /* Font size for the copyright text */
+  margin: 0; /* Remove any default margin */
 }
 
-.brown {
-  color: #a52a2a;
-}
+.divider {
+            height: 40px; /* Adjust the height as needed */
+           /* Set the background color of the divider */
+        }
